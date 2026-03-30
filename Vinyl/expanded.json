@@ -1,0 +1,14 @@
+{
+  "type": "ExpandedVinylInventory",
+  "version": 1,
+  "vinyl": [
+    {
+      "id": "cross",
+      "label": "Leviathan's Cross",
+      "file": "Cross.png",
+      "format": "png",
+      "menuVisible": true,
+      "menuId": 1000
+    }
+  ]
+}
