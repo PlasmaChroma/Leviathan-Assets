@@ -14,16 +14,16 @@
   ],
   "signed": {
     "algorithm": "fnv1a64-keyed-v1",
-    "generatedUnix": 1774920744,
+    "generatedUnix": 1774921614,
     "keyId": "634a89de67ed723a",
-    "signature": "183cb87891f2b9d6",
+    "signature": "65eaf1250b67940a",
     "files": [
       {
         "id": "cross",
         "file": "Cross.png",
         "menuId": 100,
-        "size": 1993116,
-        "hash": "e72e3fcbc6b3cebd"
+        "size": 1703845,
+        "hash": "5a16e4b20d48a92f"
       }
     ]
   }
