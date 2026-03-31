@@ -5,7 +5,7 @@
   "vinyl": [
     {
       "id": "cross",
-      "label": "Leviathan's Cross",
+      "label": "Leviathan Cross",
       "file": "Cross.png",
       "format": "png",
       "menuVisible": true,
