@@ -30,9 +30,9 @@
   ],
   "signed": {
     "algorithm": "fnv1a64-keyed-v1",
-    "generatedUnix": 1774923448,
+    "generatedUnix": 1774978931,
     "keyId": "634a89de67ed723a",
-    "signature": "640eb5a0b0b2c5d7",
+    "signature": "a77af8927433a028",
     "files": [
       {
         "id": "cross",
@@ -47,6 +47,13 @@
         "menuId": 1001,
         "size": 2093222,
         "hash": "a23b0678edb630c1"
+      },
+      {
+        "id": "ouroboros",
+        "file": "Ouroboros.png",
+        "menuId": 1002,
+        "size": 2103293,
+        "hash": "9f9821053dc19d69"
       }
     ]
   }
