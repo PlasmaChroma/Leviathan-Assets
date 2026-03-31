@@ -18,6 +18,14 @@
       "format": "png",
       "menuVisible": true,
       "menuId": 1001
+    },
+    {
+      "id": "ouroboros",
+      "label": "Ouroboros",
+      "file": "Ouroboros.png",
+      "format": "png",
+      "menuVisible": true,
+      "menuId": 1002
     }
   ],
   "signed": {
