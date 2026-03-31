@@ -17,14 +17,14 @@
       "file": "Saint Germain.png",
       "format": "png",
       "menuVisible": true,
-      "menuId": 100
-    }    
+      "menuId": 1001
+    }
   ],
   "signed": {
     "algorithm": "fnv1a64-keyed-v1",
-    "generatedUnix": 1774921713,
+    "generatedUnix": 1774923448,
     "keyId": "634a89de67ed723a",
-    "signature": "65eaf1250b67940a",
+    "signature": "640eb5a0b0b2c5d7",
     "files": [
       {
         "id": "cross",
@@ -32,6 +32,13 @@
         "menuId": 1000,
         "size": 1703845,
         "hash": "5a16e4b20d48a92f"
+      },
+      {
+        "id": "st_germain",
+        "file": "Saint Germain.png",
+        "menuId": 1001,
+        "size": 2093222,
+        "hash": "a23b0678edb630c1"
       }
     ]
   }
