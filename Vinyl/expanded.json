@@ -5,7 +5,7 @@
     {
       "id": "temporal_deck",
       "label": "Temporal Deck",
-      "file": "TemporalDeckHQ.png",
+      "file": "TemporalDeck_HQ.png",
       "format": "png",
       "menuVisible": true,
       "menuId": 10000
@@ -13,7 +13,7 @@
     {
       "id": "dragon_king",
       "label": "Dragon King",
-      "file": "DragonKingLeviathanHQ.png",
+      "file": "DragonKingLeviathan_HQ.png",
       "format": "png",
       "menuVisible": true,
       "menuId": 10001
@@ -21,7 +21,7 @@
     {
       "id": "blank",
       "label": "Blank",
-      "file": "BlankHQ.png",
+      "file": "Blank_HQ.png",
       "format": "png",
       "menuVisible": true,
       "menuId": 10002
