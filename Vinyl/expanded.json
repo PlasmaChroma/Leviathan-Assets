@@ -1,6 +1,7 @@
 {
-  "type": "ExpandedVinylInventory",
+  "type": "TemporalDeckVinylInventory",
   "version": 1,
+  "basePath": ".",
   "vinyl": [
     {
       "id": "temporal_deck",
@@ -17,7 +18,7 @@
       "format": "png",
       "menuVisible": true,
       "menuId": 10001
-    },    
+    },
     {
       "id": "blank",
       "label": "Blank",
@@ -25,7 +26,7 @@
       "format": "png",
       "menuVisible": true,
       "menuId": 10002
-    },    
+    },
     {
       "id": "cross",
       "label": "Leviathan's Cross",
@@ -34,5 +35,41 @@
       "menuVisible": true,
       "menuId": 10003
     }
-  ]
+  ],
+  "signed": {
+    "algorithm": "fnv1a64-keyed-v1",
+    "generatedUnix": 1774920744,
+    "keyId": "634a89de67ed723a",
+    "signature": "183cb87891f2b9d6",
+    "files": [
+      {
+        "id": "temporal_deck",
+        "file": "TemporalDeck_HQ.png",
+        "menuId": 10000,
+        "size": 8906319,
+        "hash": "4b86b8e976227526"
+      },
+      {
+        "id": "dragon_king",
+        "file": "DragonKingLeviathan_HQ.png",
+        "menuId": 10001,
+        "size": 8297391,
+        "hash": "6ced0658cfd78ad5"
+      },
+      {
+        "id": "blank",
+        "file": "Blank_HQ.png",
+        "menuId": 10002,
+        "size": 5922348,
+        "hash": "d1666ec70df543e0"
+      },
+      {
+        "id": "cross",
+        "file": "Cross.png",
+        "menuId": 10003,
+        "size": 1993116,
+        "hash": "e72e3fcbc6b3cebd"
+      }
+    ]
+  }
 }
