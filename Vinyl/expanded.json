@@ -38,9 +38,9 @@
   ],
   "signed": {
     "algorithm": "fnv1a64-keyed-v1",
-    "generatedUnix": 1775004088,
-    "keyId": "634a89de67ed723a",
-    "signature": "72b453fec42e5b78",
+    "generatedUnix": 1775005894,
+    "keyId": "f2f64a74e0dd68c5",
+    "signature": "19947d0a669ce715",
     "files": [
       {
         "id": "dragon_king_leviathan",
