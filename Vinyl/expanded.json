@@ -4,12 +4,20 @@
   "basePath": ".",
   "vinyl": [
     {
+      "id": "dragon_king_leviathan",
+      "label": "Dragon King",
+      "file": "DragonKingLeviathan.png",
+      "format": "png",
+      "menuVisible": true,
+      "menuId": 1000
+    },    
+    {
       "id": "cross",
       "label": "Leviathan Cross",
       "file": "Cross.png",
       "format": "png",
       "menuVisible": true,
-      "menuId": 1000
+      "menuId": 1001
     },
     {
       "id": "st_germain",
@@ -17,7 +25,7 @@
       "file": "Saint Germain.png",
       "format": "png",
       "menuVisible": true,
-      "menuId": 1001
+      "menuId": 1002
     },
     {
       "id": "ouroboros",
@@ -25,7 +33,7 @@
       "file": "Ouroboros.png",
       "format": "png",
       "menuVisible": true,
-      "menuId": 1002
+      "menuId": 1003
     }
   ],
   "signed": {
@@ -37,21 +45,21 @@
       {
         "id": "cross",
         "file": "Cross.png",
-        "menuId": 1000,
+        "menuId": 1001,
         "size": 1703845,
         "hash": "5a16e4b20d48a92f"
       },
       {
         "id": "st_germain",
         "file": "Saint Germain.png",
-        "menuId": 1001,
+        "menuId": 1002,
         "size": 2093222,
         "hash": "a23b0678edb630c1"
       },
       {
         "id": "ouroboros",
         "file": "Ouroboros.png",
-        "menuId": 1002,
+        "menuId": 1003,
         "size": 2103293,
         "hash": "9f9821053dc19d69"
       }
