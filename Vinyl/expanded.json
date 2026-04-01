@@ -10,7 +10,7 @@
       "format": "png",
       "menuVisible": true,
       "menuId": 1000
-    },    
+    },
     {
       "id": "cross",
       "label": "Leviathan Cross",
@@ -38,10 +38,17 @@
   ],
   "signed": {
     "algorithm": "fnv1a64-keyed-v1",
-    "generatedUnix": 1774978931,
+    "generatedUnix": 1775004088,
     "keyId": "634a89de67ed723a",
-    "signature": "a77af8927433a028",
+    "signature": "72b453fec42e5b78",
     "files": [
+      {
+        "id": "dragon_king_leviathan",
+        "file": "DragonKingLeviathan.png",
+        "menuId": 1000,
+        "size": 2020537,
+        "hash": "dd91a0ac3e3c3a64"
+      },
       {
         "id": "cross",
         "file": "Cross.png",
