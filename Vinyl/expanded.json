@@ -42,13 +42,21 @@
       "format": "png",
       "menuVisible": true,
       "menuId": 1004
+    },
+    {
+      "id": "wind_god",
+      "label": "Wind God",
+      "file": "WindGod.png",
+      "format": "png",
+      "menuVisible": true,
+      "menuId": 1005
     }
   ],
   "signed": {
     "algorithm": "fnv1a64-keyed-v1",
-    "generatedUnix": 1775009363,
+    "generatedUnix": 1775053699,
     "keyId": "f2f64a74e0dd68c5",
-    "signature": "1b7ce2aa2a355b75",
+    "signature": "e8c00bc5823cb4f3",
     "files": [
       {
         "id": "dragon_king_leviathan",
@@ -84,6 +92,13 @@
         "menuId": 1004,
         "size": 2470249,
         "hash": "7c0260f5c78833f8"
+      },
+      {
+        "id": "wind_god",
+        "file": "WindGod.png",
+        "menuId": 1005,
+        "size": 1902780,
+        "hash": "dd01dc6ca2932a38"
       }
     ]
   }
