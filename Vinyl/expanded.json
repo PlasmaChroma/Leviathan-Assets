@@ -50,13 +50,21 @@
       "format": "png",
       "menuVisible": true,
       "menuId": 1005
+    },
+    {
+      "id": "thoth",
+      "label": "Thoth",
+      "file": "Thoth.png",
+      "format": "png",
+      "menuVisible": true,
+      "menuId": 1006
     }
   ],
   "signed": {
     "algorithm": "fnv1a64-keyed-v1",
-    "generatedUnix": 1775053699,
+    "generatedUnix": 1775175958,
     "keyId": "f2f64a74e0dd68c5",
-    "signature": "e8c00bc5823cb4f3",
+    "signature": "f131a55ced1766f6",
     "files": [
       {
         "id": "dragon_king_leviathan",
@@ -99,6 +107,13 @@
         "menuId": 1005,
         "size": 1902780,
         "hash": "dd01dc6ca2932a38"
+      },
+      {
+        "id": "thoth",
+        "file": "Thoth.png",
+        "menuId": 1006,
+        "size": 1972316,
+        "hash": "173e8132a2c4c18f"
       }
     ]
   }
