@@ -62,9 +62,9 @@
   ],
   "signed": {
     "algorithm": "fnv1a64-keyed-v1",
-    "generatedUnix": 1775175958,
+    "generatedUnix": 1775229824,
     "keyId": "f2f64a74e0dd68c5",
-    "signature": "f131a55ced1766f6",
+    "signature": "0624f56cb855a018",
     "files": [
       {
         "id": "dragon_king_leviathan",
@@ -98,8 +98,8 @@
         "id": "nexora_lumineth",
         "file": "Nexora Lumineth.png",
         "menuId": 1004,
-        "size": 2470249,
-        "hash": "7c0260f5c78833f8"
+        "size": 2576688,
+        "hash": "480d674b2acb8e01"
       },
       {
         "id": "wind_god",
@@ -112,8 +112,8 @@
         "id": "thoth",
         "file": "Thoth.png",
         "menuId": 1006,
-        "size": 1972316,
-        "hash": "173e8132a2c4c18f"
+        "size": 2050292,
+        "hash": "0ba5e0757993ce4b"
       }
     ]
   }
