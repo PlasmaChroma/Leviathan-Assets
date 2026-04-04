@@ -58,13 +58,29 @@
       "format": "png",
       "menuVisible": true,
       "menuId": 1006
+    },
+    {
+      "id": "samurai",
+      "label": "Samurai",
+      "file": "Samurai.png",
+      "format": "png",
+      "menuVisible": true,
+      "menuId": 1007
+    },
+    {
+      "id": "more_drift",
+      "label": "More Drift",
+      "file": "More Drift.png",
+      "format": "png",
+      "menuVisible": true,
+      "menuId": 1008
     }
   ],
   "signed": {
     "algorithm": "fnv1a64-keyed-v1",
-    "generatedUnix": 1775175958,
+    "generatedUnix": 1775264679,
     "keyId": "f2f64a74e0dd68c5",
-    "signature": "f131a55ced1766f6",
+    "signature": "51d78b72b3cbba8c",
     "files": [
       {
         "id": "dragon_king_leviathan",
@@ -114,6 +130,20 @@
         "menuId": 1006,
         "size": 1972316,
         "hash": "173e8132a2c4c18f"
+      },
+      {
+        "id": "samurai",
+        "file": "Samurai.png",
+        "menuId": 1007,
+        "size": 9391609,
+        "hash": "82303ea8e50d9944"
+      },
+      {
+        "id": "more_drift",
+        "file": "More Drift.png",
+        "menuId": 1008,
+        "size": 9973694,
+        "hash": "ae140a660b7de4c9"
       }
     ]
   }
