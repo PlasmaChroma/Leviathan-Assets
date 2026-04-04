@@ -47,7 +47,9 @@
       "file": "Nexora Lumineth.png",
       "format": "png",
       "menuVisible": true,
-      "menuId": 1004
+      "menuId": 1004,
+      "submenu": "Fae",
+      "submenuOrder": 5
     },
     {
       "id": "wind_god",
@@ -85,13 +87,22 @@
       "menuVisible": true,
       "menuId": 1008,
       "submenu": "Japan"
+    },
+    {
+      "id": "fae_domain",
+      "label": "Domain",
+      "file": "Domain.png",
+      "format": "png",
+      "menuVisible": true,
+      "menuId": 1009,
+      "submenu": "Fae"
     }
   ],
   "signed": {
     "algorithm": "fnv1a64-keyed-v1",
-    "generatedUnix": 1775310651,
+    "generatedUnix": 1775330232,
     "keyId": "f2f64a74e0dd68c5",
-    "signature": "3f6939e2f9c2ce31",
+    "signature": "f24af5630ab7d087",
     "files": [
       {
         "id": "dragon_king_leviathan",
@@ -155,6 +166,13 @@
         "menuId": 1008,
         "size": 2031131,
         "hash": "d64ebcfb7e5bc007"
+      },
+      {
+        "id": "fae_domain",
+        "file": "Domain.png",
+        "menuId": 1009,
+        "size": 2247115,
+        "hash": "e725be480d39b9c7"
       }
     ]
   }
