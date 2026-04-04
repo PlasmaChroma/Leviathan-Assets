@@ -9,7 +9,8 @@
       "file": "DragonKingLeviathan.png",
       "format": "png",
       "menuVisible": true,
-      "menuId": 1000
+      "menuId": 1000,
+      "submenu": "Dragon"
     },
     {
       "id": "cross",
@@ -17,7 +18,8 @@
       "file": "Cross.png",
       "format": "png",
       "menuVisible": true,
-      "menuId": 1001
+      "menuId": 1001,
+      "submenu": "Occult"
     },
     {
       "id": "st_germain",
@@ -33,7 +35,8 @@
       "file": "Ouroboros.png",
       "format": "png",
       "menuVisible": true,
-      "menuId": 1003
+      "menuId": 1003,
+      "submenu": "Occult"
     },
     {
       "id": "nexora_lumineth",
@@ -49,7 +52,8 @@
       "file": "WindGod.png",
       "format": "png",
       "menuVisible": true,
-      "menuId": 1005
+      "menuId": 1005,
+      "submenu": "Dragon"
     },
     {
       "id": "thoth",
@@ -57,7 +61,8 @@
       "file": "Thoth.png",
       "format": "png",
       "menuVisible": true,
-      "menuId": 1006
+      "menuId": 1006,
+      "submenu": "Occult"
     },
     {
       "id": "samurai",
@@ -69,7 +74,7 @@
     },
     {
       "id": "more_drift",
-      "label": "More Drift",
+      "label": "Drift",
       "file": "More Drift.png",
       "format": "png",
       "menuVisible": true,
