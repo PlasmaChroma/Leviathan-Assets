@@ -96,13 +96,58 @@
       "menuVisible": true,
       "menuId": 1009,
       "submenu": "Fae"
+    },
+    {
+      "id": "blank_white",
+      "label": "Blank White",
+      "file": "Blank White.png",
+      "format": "png",
+      "menuVisible": true,
+      "menuId": 1010,
+      "submenu": "Core"
+    },
+    {
+      "id": "blank_blue",
+      "label": "Blank Blue",
+      "file": "Blank Blue.png",
+      "format": "png",
+      "menuVisible": true,
+      "menuId": 1011,
+      "submenu": "Core"
+    },
+    {
+      "id": "blank_green",
+      "label": "Blank Green",
+      "file": "Blank Green.png",
+      "format": "png",
+      "menuVisible": true,
+      "menuId": 1012,
+      "submenu": "Core"
+    },
+    {
+      "id": "blank_purple",
+      "label": "Blank Purple",
+      "file": "Blank Purple.png",
+      "format": "png",
+      "menuVisible": true,
+      "menuId": 1013,
+      "submenu": "Core"
+    },
+    {
+      "id": "blank_red",
+      "label": "Blank Red",
+      "file": "Blank Red.png",
+      "format": "png",
+      "menuVisible": true,
+      "menuId": 1014,
+      "submenu": "Core"
     }
   ],
   "signed": {
     "algorithm": "fnv1a64-keyed-v1",
-    "generatedUnix": 1775330232,
+    "generatedUnix": 1776013470,
     "keyId": "f2f64a74e0dd68c5",
-    "signature": "f24af5630ab7d087",
+    "signature": "75b94f4c2a0adb7f",
     "files": [
       {
         "id": "dragon_king_leviathan",
@@ -173,6 +218,41 @@
         "menuId": 1009,
         "size": 2247115,
         "hash": "e725be480d39b9c7"
+      },
+      {
+        "id": "blank_white",
+        "file": "Blank White.png",
+        "menuId": 1010,
+        "size": 1566566,
+        "hash": "246404c972ad239f"
+      },
+      {
+        "id": "blank_blue",
+        "file": "Blank Blue.png",
+        "menuId": 1011,
+        "size": 1732139,
+        "hash": "123a26ce29ef8ac5"
+      },
+      {
+        "id": "blank_green",
+        "file": "Blank Green.png",
+        "menuId": 1012,
+        "size": 1727469,
+        "hash": "d91376408c4b25ed"
+      },
+      {
+        "id": "blank_purple",
+        "file": "Blank Purple.png",
+        "menuId": 1013,
+        "size": 1793483,
+        "hash": "70ec7b3ad20b98d2"
+      },
+      {
+        "id": "blank_red",
+        "file": "Blank Red.png",
+        "menuId": 1014,
+        "size": 1770247,
+        "hash": "4788a8a9840cb98d"
       }
     ]
   }
