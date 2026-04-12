@@ -104,7 +104,8 @@
       "format": "png",
       "menuVisible": true,
       "menuId": 1010,
-      "submenu": "Core"
+      "submenu": "Core",
+      "submenuOrder": 1
     },
     {
       "id": "blank_blue",
@@ -145,7 +146,7 @@
   ],
   "signed": {
     "algorithm": "fnv1a64-keyed-v1",
-    "generatedUnix": 1776013470,
+    "generatedUnix": 1776013730,
     "keyId": "f2f64a74e0dd68c5",
     "signature": "75b94f4c2a0adb7f",
     "files": [
