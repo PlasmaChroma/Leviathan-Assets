@@ -104,8 +104,8 @@
       "format": "png",
       "menuVisible": true,
       "menuId": 1010,
-      "submenu": "Core",
-      "submenuOrder": 1
+      "submenu": "Basic Color",
+      "submenuOrder": 6
     },
     {
       "id": "blank_blue",
@@ -114,7 +114,7 @@
       "format": "png",
       "menuVisible": true,
       "menuId": 1011,
-      "submenu": "Core"
+      "submenu": "Basic Color"
     },
     {
       "id": "blank_green",
@@ -123,7 +123,7 @@
       "format": "png",
       "menuVisible": true,
       "menuId": 1012,
-      "submenu": "Core"
+      "submenu": "Basic Color"
     },
     {
       "id": "blank_purple",
@@ -132,7 +132,7 @@
       "format": "png",
       "menuVisible": true,
       "menuId": 1013,
-      "submenu": "Core"
+      "submenu": "Basic Color"
     },
     {
       "id": "blank_red",
@@ -141,12 +141,12 @@
       "format": "png",
       "menuVisible": true,
       "menuId": 1014,
-      "submenu": "Core"
+      "submenu": "Basic Color"
     }
   ],
   "signed": {
     "algorithm": "fnv1a64-keyed-v1",
-    "generatedUnix": 1776013730,
+    "generatedUnix": 1776013828,
     "keyId": "f2f64a74e0dd68c5",
     "signature": "75b94f4c2a0adb7f",
     "files": [
