@@ -142,13 +142,22 @@
       "menuVisible": true,
       "menuId": 1014,
       "submenu": "Basic Color"
+    },
+    {
+      "id": "longwei",
+      "label": "Longwei",
+      "file": "Longwei.png",
+      "format": "png",
+      "menuVisible": true,
+      "menuId": 1015,
+      "submenu": "Dragon"
     }
   ],
   "signed": {
     "algorithm": "fnv1a64-keyed-v1",
-    "generatedUnix": 1776013828,
+    "generatedUnix": 1776395891,
     "keyId": "f2f64a74e0dd68c5",
-    "signature": "75b94f4c2a0adb7f",
+    "signature": "e00541f60fe34371",
     "files": [
       {
         "id": "dragon_king_leviathan",
@@ -254,6 +263,13 @@
         "menuId": 1014,
         "size": 1770247,
         "hash": "4788a8a9840cb98d"
+      },
+      {
+        "id": "longwei",
+        "file": "Longwei.png",
+        "menuId": 1015,
+        "size": 2078157,
+        "hash": "27bdd93eab4e093b"
       }
     ]
   }
