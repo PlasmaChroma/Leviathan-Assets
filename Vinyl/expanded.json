@@ -151,13 +151,22 @@
       "menuVisible": true,
       "menuId": 1015,
       "submenu": "Dragon"
+    },
+    {
+      "id": "sakura",
+      "label": "Sakura",
+      "file": "Sakura.png",
+      "format": "png",
+      "menuVisible": true,
+      "menuId": 1016,
+      "submenu": "Japan"
     }
   ],
   "signed": {
     "algorithm": "fnv1a64-keyed-v1",
-    "generatedUnix": 1776431445,
+    "generatedUnix": 1776432262,
     "keyId": "f2f64a74e0dd68c5",
-    "signature": "3c93991a2fb2220c",
+    "signature": "43dc9779ec5db7d1",
     "files": [
       {
         "id": "dragon_king_leviathan",
@@ -270,6 +279,13 @@
         "menuId": 1015,
         "size": 536221,
         "hash": "3579c83b3b608330"
+      },
+      {
+        "id": "sakura",
+        "file": "Sakura.png",
+        "menuId": 1016,
+        "size": 563954,
+        "hash": "d07532f504526c79"
       }
     ]
   }
