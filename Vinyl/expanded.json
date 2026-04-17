@@ -151,125 +151,141 @@
       "menuVisible": true,
       "menuId": 1015,
       "submenu": "Dragon"
+    },
+    {
+      "id": "sakura",
+      "label": "Sakura",
+      "file": "Sakura.png",
+      "format": "png",
+      "menuVisible": true,
+      "menuId": 1016,
+      "submenu": "Japan"
     }
   ],
   "signed": {
     "algorithm": "fnv1a64-keyed-v1",
-    "generatedUnix": 1776395891,
+    "generatedUnix": 1776432262,
     "keyId": "f2f64a74e0dd68c5",
-    "signature": "e00541f60fe34371",
+    "signature": "43dc9779ec5db7d1",
     "files": [
       {
         "id": "dragon_king_leviathan",
         "file": "DragonKingLeviathan.png",
         "menuId": 1000,
-        "size": 2020537,
-        "hash": "dd91a0ac3e3c3a64"
+        "size": 480701,
+        "hash": "2ebd66610bc806d4"
       },
       {
         "id": "cross",
         "file": "Cross.png",
         "menuId": 1001,
-        "size": 1703845,
-        "hash": "5a16e4b20d48a92f"
+        "size": 512101,
+        "hash": "ab4b920cafc986e4"
       },
       {
         "id": "st_germain",
         "file": "Saint Germain.png",
         "menuId": 1002,
-        "size": 2093222,
-        "hash": "a23b0678edb630c1"
+        "size": 542374,
+        "hash": "5cfc543f562cd576"
       },
       {
         "id": "ouroboros",
         "file": "Ouroboros.png",
         "menuId": 1003,
-        "size": 2103293,
-        "hash": "9f9821053dc19d69"
+        "size": 687283,
+        "hash": "954a3b571a6710e2"
       },
       {
         "id": "nexora_lumineth",
         "file": "Nexora Lumineth.png",
         "menuId": 1004,
-        "size": 2576688,
-        "hash": "480d674b2acb8e01"
+        "size": 640529,
+        "hash": "5c4ee788bbead703"
       },
       {
         "id": "wind_god",
         "file": "WindGod.png",
         "menuId": 1005,
-        "size": 1902780,
-        "hash": "dd01dc6ca2932a38"
+        "size": 555055,
+        "hash": "f638d7df66a622ad"
       },
       {
         "id": "thoth",
         "file": "Thoth.png",
         "menuId": 1006,
-        "size": 2050292,
-        "hash": "0ba5e0757993ce4b"
+        "size": 557448,
+        "hash": "11eb6f45f04c3169"
       },
       {
         "id": "samurai",
         "file": "Samurai.png",
         "menuId": 1007,
-        "size": 9391609,
-        "hash": "82303ea8e50d9944"
+        "size": 583025,
+        "hash": "e12d9925fbcd4483"
       },
       {
         "id": "drift",
         "file": "Drift.png",
         "menuId": 1008,
-        "size": 2031131,
-        "hash": "d64ebcfb7e5bc007"
+        "size": 470477,
+        "hash": "9f9eb9379357ed49"
       },
       {
         "id": "fae_domain",
         "file": "Domain.png",
         "menuId": 1009,
-        "size": 2247115,
-        "hash": "e725be480d39b9c7"
+        "size": 515567,
+        "hash": "9da97b414f5abce4"
       },
       {
         "id": "blank_white",
         "file": "Blank White.png",
         "menuId": 1010,
-        "size": 1566566,
-        "hash": "246404c972ad239f"
+        "size": 601783,
+        "hash": "c57edb0e85c1e3a8"
       },
       {
         "id": "blank_blue",
         "file": "Blank Blue.png",
         "menuId": 1011,
-        "size": 1732139,
-        "hash": "123a26ce29ef8ac5"
+        "size": 580056,
+        "hash": "e7a806e34e2f986a"
       },
       {
         "id": "blank_green",
         "file": "Blank Green.png",
         "menuId": 1012,
-        "size": 1727469,
-        "hash": "d91376408c4b25ed"
+        "size": 616025,
+        "hash": "facaf5b887cd4c3a"
       },
       {
         "id": "blank_purple",
         "file": "Blank Purple.png",
         "menuId": 1013,
-        "size": 1793483,
-        "hash": "70ec7b3ad20b98d2"
+        "size": 625281,
+        "hash": "7696f9eecdd38b03"
       },
       {
         "id": "blank_red",
         "file": "Blank Red.png",
         "menuId": 1014,
-        "size": 1770247,
-        "hash": "4788a8a9840cb98d"
+        "size": 621300,
+        "hash": "b3528b92941989f9"
       },
       {
         "id": "longwei",
         "file": "Longwei.png",
         "menuId": 1015,
-        "size": 2078157,
-        "hash": "27bdd93eab4e093b"
+        "size": 536221,
+        "hash": "3579c83b3b608330"
+      },
+      {
+        "id": "sakura",
+        "file": "Sakura.png",
+        "menuId": 1016,
+        "size": 563954,
+        "hash": "d07532f504526c79"
       }
     ]
   }
