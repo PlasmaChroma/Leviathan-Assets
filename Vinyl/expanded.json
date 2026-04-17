@@ -169,13 +169,22 @@
       "menuVisible": true,
       "menuId": 1017,
       "submenu": "Fae"
+    },
+    {
+      "id": "psy_chip",
+      "label": "Psyche Chip",
+      "file": "Psyche Chip.png",
+      "format": "png",
+      "menuVisible": true,
+      "menuId": 1018,
+      "submenu": "Japan"
     }
   ],
   "signed": {
     "algorithm": "fnv1a64-keyed-v1",
-    "generatedUnix": 1776433332,
+    "generatedUnix": 1776449663,
     "keyId": "f2f64a74e0dd68c5",
-    "signature": "a586ec857b8916db",
+    "signature": "6e007d5cc6ade96b",
     "files": [
       {
         "id": "dragon_king_leviathan",
@@ -302,6 +311,13 @@
         "menuId": 1017,
         "size": 564319,
         "hash": "5a619f904558cf86"
+      },
+      {
+        "id": "psy_chip",
+        "file": "Psyche Chip.png",
+        "menuId": 1018,
+        "size": 589885,
+        "hash": "85782b6a4e5b904b"
       }
     ]
   }
