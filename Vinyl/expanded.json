@@ -200,9 +200,9 @@
   ],
   "signed": {
     "algorithm": "fnv1a64-keyed-v1",
-    "generatedUnix": 1777481055,
+    "generatedUnix": 1777489774,
     "keyId": "f2f64a74e0dd68c5",
-    "signature": "263d7320f2fa0fc1",
+    "signature": "469141187b52777b",
     "files": [
       {
         "id": "dragon_king_leviathan",
@@ -348,8 +348,8 @@
         "id": "omri_cohen",
         "file": "Omri Cohen.png",
         "menuId": 1020,
-        "size": 480504,
-        "hash": "9db4fe23ab915cc8"
+        "size": 464928,
+        "hash": "30a93057394b7327"
       }
     ]
   }
