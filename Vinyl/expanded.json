@@ -195,7 +195,8 @@
       "format": "png",
       "menuVisible": true,
       "menuId": 1020,
-      "submenu": "Creators"
+      "submenu": "Creators",
+      "submenuOrder": 6
     },
     {
       "id": "dovah_vahdrim",
@@ -212,15 +213,15 @@
       "file": "Leviathan.png",
       "format": "png",
       "menuVisible": false,
-      "menuId": 1023,
+      "menuId": 1022,
       "submenu": "Dragon"
     }
   ],
   "signed": {
     "algorithm": "fnv1a64-keyed-v1",
-    "generatedUnix": 1778807810,
+    "generatedUnix": 1778807942,
     "keyId": "f2f64a74e0dd68c5",
-    "signature": "02e91383aec27534",
+    "signature": "1d9e15f16bd61c49",
     "files": [
       {
         "id": "dragon_king_leviathan",
@@ -379,7 +380,7 @@
       {
         "id": "Leviathan",
         "file": "Leviathan.png",
-        "menuId": 1023,
+        "menuId": 1022,
         "size": 582739,
         "hash": "5c9037fccb4ff377"
       }
