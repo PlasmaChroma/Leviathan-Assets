@@ -219,9 +219,9 @@
   ],
   "signed": {
     "algorithm": "fnv1a64-keyed-v1",
-    "generatedUnix": 1778808086,
+    "generatedUnix": 1778808823,
     "keyId": "f2f64a74e0dd68c5",
-    "signature": "884d4c86161ede02",
+    "signature": "283544d96e6780af",
     "files": [
       {
         "id": "dragon_king_leviathan",
@@ -381,8 +381,8 @@
         "id": "Leviathan",
         "file": "Leviathan.png",
         "menuId": 1022,
-        "size": 582739,
-        "hash": "5c9037fccb4ff377"
+        "size": 610832,
+        "hash": "604bf285417a9ee0"
       }
     ]
   }
