@@ -205,13 +205,22 @@
       "menuVisible": true,
       "menuId": 1021,
       "submenu": "Occult"
+    },
+    {
+      "id": "Leviathan",
+      "label": "Leviathan",
+      "file": "Leviathan.png",
+      "format": "png",
+      "menuVisible": false,
+      "menuId": 1023,
+      "submenu": "Dragon"
     }
   ],
   "signed": {
     "algorithm": "fnv1a64-keyed-v1",
-    "generatedUnix": 1778209989,
+    "generatedUnix": 1778807810,
     "keyId": "f2f64a74e0dd68c5",
-    "signature": "78e5387ab3334e87",
+    "signature": "02e91383aec27534",
     "files": [
       {
         "id": "dragon_king_leviathan",
@@ -366,6 +375,13 @@
         "menuId": 1021,
         "size": 580618,
         "hash": "aa3ba948d78eca7b"
+      },
+      {
+        "id": "Leviathan",
+        "file": "Leviathan.png",
+        "menuId": 1023,
+        "size": 582739,
+        "hash": "5c9037fccb4ff377"
       }
     ]
   }
