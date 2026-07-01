@@ -195,14 +195,33 @@
       "format": "png",
       "menuVisible": true,
       "menuId": 1020,
-      "submenu": "Creators"
+      "submenu": "Creators",
+      "submenuOrder": 6
+    },
+    {
+      "id": "baphomet",
+      "label": "Baphomet",
+      "file": "Baphomet.png",
+      "format": "png",
+      "menuVisible": true,
+      "menuId": 1021,
+      "submenu": "Occult"
+    },
+    {
+      "id": "Leviathan",
+      "label": "Leviathan",
+      "file": "Leviathan.png",
+      "format": "png",
+      "menuVisible": true,
+      "menuId": 1022,
+      "submenu": "Dragon"
     }
   ],
   "signed": {
     "algorithm": "fnv1a64-keyed-v1",
-    "generatedUnix": 1777489774,
+    "generatedUnix": 1780165221,
     "keyId": "f2f64a74e0dd68c5",
-    "signature": "469141187b52777b",
+    "signature": "c027cb7ca1005d60",
     "files": [
       {
         "id": "dragon_king_leviathan",
@@ -350,6 +369,20 @@
         "menuId": 1020,
         "size": 464928,
         "hash": "30a93057394b7327"
+      },
+      {
+        "id": "baphomet",
+        "file": "Baphomet.png",
+        "menuId": 1021,
+        "size": 673738,
+        "hash": "e3cd6c038ecc55b9"
+      },
+      {
+        "id": "Leviathan",
+        "file": "Leviathan.png",
+        "menuId": 1022,
+        "size": 637171,
+        "hash": "4654d9f6292e2053"
       }
     ]
   }
