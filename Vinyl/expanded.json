@@ -215,13 +215,22 @@
       "menuVisible": true,
       "menuId": 1022,
       "submenu": "Dragon"
+    },
+    {
+      "id": "Bahamut",
+      "label": "Bahamut",
+      "file": "Bahamut.png",
+      "format": "png",
+      "menuVisible": true,
+      "menuId": 1023,
+      "submenu": "Dragon"
     }
   ],
   "signed": {
     "algorithm": "fnv1a64-keyed-v1",
-    "generatedUnix": 1780165221,
+    "generatedUnix": 1785028222,
     "keyId": "f2f64a74e0dd68c5",
-    "signature": "c027cb7ca1005d60",
+    "signature": "7b883d72571a4a13",
     "files": [
       {
         "id": "dragon_king_leviathan",
@@ -383,6 +392,13 @@
         "menuId": 1022,
         "size": 637171,
         "hash": "4654d9f6292e2053"
+      },
+      {
+        "id": "Bahamut",
+        "file": "Bahamut.png",
+        "menuId": 1023,
+        "size": 576390,
+        "hash": "f2b8f64737510a89"
       }
     ]
   }
