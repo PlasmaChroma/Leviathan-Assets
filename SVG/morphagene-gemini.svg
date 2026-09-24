@@ -1,0 +1,435 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 380" width="300" height="380">
+  <defs>
+    <!-- Background Texture / Metal Gradient -->
+    <linearGradient id="panelBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#232427" />
+      <stop offset="100%" stop-color="#18181a" />
+    </linearGradient>
+
+    <!-- Jack Metal Gradients -->
+    <linearGradient id="jackMetal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#dedede" />
+      <stop offset="100%" stop-color="#606368" />
+    </linearGradient>
+    <linearGradient id="jackNut" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#b0b3b8" />
+      <stop offset="100%" stop-color="#484a4e" />
+    </linearGradient>
+
+    <!-- Knob Gradients -->
+    <linearGradient id="knobBody" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2c2d30" />
+      <stop offset="100%" stop-color="#121315" />
+    </linearGradient>
+    <linearGradient id="knobCap" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d6dadf" />
+      <stop offset="100%" stop-color="#a0a5ab" />
+    </linearGradient>
+
+    <!-- Indicators -->
+    <radialGradient id="reelBlue" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#092978" />
+    </radialGradient>
+    <linearGradient id="spliceGreen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#046342" />
+    </linearGradient>
+    <radialGradient id="ledYellowGreen" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#bbf7d0" />
+      <stop offset="100%" stop-color="#4d7c0f" />
+    </radialGradient>
+
+    <!-- Hardware Screws -->
+    <linearGradient id="screwWasher" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e2cf86" />
+      <stop offset="100%" stop-color="#8a7536" />
+    </linearGradient>
+  </defs>
+
+  <!-- ================= 1. BASE PANEL SUBSTRATE ================= -->
+  <rect width="300" height="380" fill="url(#panelBg)" />
+
+  <!-- Corner Mounting Holes -->
+  <g id="mounting-holes">
+    <!-- Top Left -->
+    <circle cx="22.5" cy="12" r="6.5" fill="url(#screwWasher)" />
+    <circle cx="22.5" cy="12" r="4.2" fill="#141416" />
+    <circle cx="22.5" cy="12" r="3.2" fill="#f8f9fa" />
+    <!-- Top Right -->
+    <circle cx="277.5" cy="12" r="6.5" fill="url(#screwWasher)" />
+    <circle cx="277.5" cy="12" r="4.2" fill="#141416" />
+    <circle cx="277.5" cy="12" r="3.2" fill="#f8f9fa" />
+    <!-- Bottom Left -->
+    <circle cx="22.5" cy="368" r="6.5" fill="url(#screwWasher)" />
+    <circle cx="22.5" cy="368" r="4.2" fill="#141416" />
+    <circle cx="22.5" cy="368" r="3.2" fill="#f8f9fa" />
+    <!-- Bottom Right -->
+    <circle cx="277.5" cy="368" r="6.5" fill="url(#screwWasher)" />
+    <circle cx="277.5" cy="368" r="4.2" fill="#141416" />
+    <circle cx="277.5" cy="368" r="3.2" fill="#f8f9fa" />
+  </g>
+
+  <!-- ================= 2. SILKSCREEN & ROUTING TRACES ================= -->
+  <g id="silkscreen-traces" stroke="#f1f3f5" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    
+    <!-- Top Horizontal Divider -->
+    <line x1="2" y1="73" x2="298" y2="73" />
+    <!-- Top Section Divider Right of SOS -->
+    <line x1="212" y1="24" x2="212" y2="73" />
+
+    <!-- Left & Right In/Out Arrows -->
+    <!-- Input L Arrow -->
+    <line x1="12" y1="22" x2="20" y2="30" />
+    <polygon points="20,24 20,30 14,30" fill="#f1f3f5" stroke="none" />
+    <!-- Input R Arrow -->
+    <line x1="49" y1="22" x2="57" y2="30" />
+    <polygon points="57,24 57,30 51,30" fill="#f1f3f5" stroke="none" />
+    <!-- Output L Arrow -->
+    <line x1="244" y1="31" x2="252" y2="23" />
+    <polygon points="246,23 252,23 252,29" fill="#f1f3f5" stroke="none" />
+    <!-- Output R Arrow -->
+    <line x1="281" y1="31" x2="289" y2="23" />
+    <polygon points="283,23 289,23 289,29" fill="#f1f3f5" stroke="none" />
+
+    <!-- SOS Jack to Pot Route -->
+    <path d="M 137,45 Q 152,38 163,45" />
+
+    <!-- Upper Attenuverter Polarities -->
+    <!-- Left Pot -->
+    <circle cx="48" cy="85" r="4.5" />
+    <line x1="45" y1="85" x2="51" y2="85" />
+    <circle cx="90" cy="85" r="4.5" />
+    <line x1="87" y1="85" x2="93" y2="85" />
+    <line x1="90" y1="82" x2="90" y2="88" />
+    <!-- Right Pot -->
+    <circle cx="208" cy="85" r="4.5" />
+    <line x1="205" y1="85" x2="211" y2="85" />
+    <circle cx="250" cy="85" r="4.5" />
+    <line x1="247" y1="85" x2="253" y2="85" />
+    <line x1="250" y1="82" x2="250" y2="88" />
+    <!-- Center Attenuverter -->
+    <circle cx="128" cy="177" r="4.5" />
+    <line x1="125" y1="177" x2="131" y2="177" />
+    <circle cx="172" cy="177" r="4.5" />
+    <line x1="169" y1="177" x2="175" y2="177" />
+    <line x1="172" y1="174" x2="172" y2="180" />
+
+    <!-- GENE SIZE Routing Flow -->
+    <path d="M 46,132 L 53,132 Q 70,132 70,120 L 70,117" />
+    <path d="M 70,105 Q 86,128 80,150" />
+
+    <!-- SLIDE Routing Flow -->
+    <path d="M 254,132 L 247,132 Q 230,132 230,120 L 230,117" />
+    <path d="M 230,105 Q 214,128 220,150" />
+
+    <!-- Center Varispeed Stems -->
+    <path d="M 146,148 L 146,170 Q 146,182 150,186" />
+    <path d="M 154,148 L 154,170 Q 154,182 150,186" />
+    <line x1="150" y1="190" x2="150" y2="192" />
+    <line x1="150" y1="214" x2="150" y2="220" />
+
+    <!-- Major Horizontal Fluid Dividing Swoops -->
+    <path d="M 2,185 C 40,185 50,195 62,205 C 75,216 85,200 115,225 C 122,231 126,245 126,252 L 126,268 L 174,268 L 174,252 C 174,245 178,231 185,225 C 215,200 225,216 238,205 C 250,195 260,185 298,185" />
+    
+    <!-- Outer Contour Enclosure Loops -->
+    <path d="M 126,242 C 120,230 120,205 140,203" />
+    <path d="M 174,242 C 180,230 180,205 160,203" />
+
+    <!-- MORPH & ORGANIZE Routing -->
+    <path d="M 46,225 Q 60,225 66,238" />
+    <path d="M 254,225 Q 240,225 234,238" />
+
+    <!-- Concentric Trigger Ripple Rings -->
+    <!-- Left CLK -->
+    <circle cx="23" cy="272" r="14" />
+    <circle cx="23" cy="272" r="18" />
+    <circle cx="23" cy="272" r="22" />
+    <!-- Right Trigger -->
+    <circle cx="277" cy="272" r="14" />
+    <circle cx="277" cy="272" r="18" />
+    <circle cx="277" cy="272" r="22" />
+
+    <!-- Shift and Splice Interconnections -->
+    <path d="M 277,294 Q 277,310 248,310" />
+    <path d="M 105,284 C 105,268 122,298 122,305" />
+    <path d="M 160,348 L 180,348" />
+
+    <!-- CV OUT Arrow -->
+    <line x1="72" y1="289" x2="77" y2="284" />
+    <polygon points="73,284 77,284 77,288" fill="#f1f3f5" stroke="none" />
+    <!-- EOSG Arrow -->
+    <line x1="160" y1="289" x2="165" y2="284" />
+    <polygon points="161,284 165,284 165,288" fill="#f1f3f5" stroke="none" />
+
+    <!-- Play Bottom Left Triangle -->
+    <polygon points="7,330 7,360 41,345" stroke="#f1f3f5" stroke-width="1.6" fill="rgba(255,255,255,0.08)" />
+  </g>
+
+  <!-- ================= 3. SILKSCREEN LABELS & GRAPHICS ================= -->
+  <!-- Varispeed Graphic Icon & Arcs -->
+  <g id="varispeed-dial-gauge">
+    <!-- Top Direction Symbol -->
+    <text x="150" y="103" fill="#f1f3f5" font-family="monospace, sans-serif" font-weight="900" font-size="14" text-anchor="middle">|&#1071;, F|</text>
+    
+    <!-- Reverse Speed Arc (Amber / Orange) -->
+    <g stroke-linecap="round" fill="none">
+      <path d="M 136,104 C 114,106 102,126 106,148" stroke="#d97706" stroke-width="2.5" />
+      <path d="M 133,101 C 110,103  97,126 101,150" stroke="#f59e0b" stroke-width="2" />
+      <path d="M 130,98  C 106,100  92,126  96,152" stroke="#ea580c" stroke-width="2" />
+      <path d="M 127,95  C 102,97   87,126  91,154" stroke="#f97316" stroke-width="2" />
+      <path d="M 124,92  C  98,94   82,126  86,156" stroke="#fbbf24" stroke-width="1.8" />
+      <!-- Reverse Arrow Head -->
+      <polygon points="120,146 123,156 114,153" fill="#f59e0b" />
+    </g>
+
+    <!-- Forward Speed Arc (Green) -->
+    <g stroke-linecap="round" fill="none">
+      <path d="M 164,104 C 186,106 198,126 194,148" stroke="#059669" stroke-width="2.5" />
+      <path d="M 167,101 C 190,103 203,126 199,150" stroke="#10b981" stroke-width="2" />
+      <path d="M 170,98  C 194,100 208,126 204,152" stroke="#34d399" stroke-width="2" />
+      <path d="M 173,95  C 198,97  213,126 209,154" stroke="#6ee7b7" stroke-width="2" />
+      <path d="M 176,92  C 202,94  218,126 214,156" stroke="#a7f3d0" stroke-width="1.8" />
+      <!-- Forward Arrow Head -->
+      <polygon points="180,146 177,156 186,153" fill="#10b981" />
+    </g>
+  </g>
+
+  <!-- Silkscreen Typography (Make-Noise Angular Style) -->
+  <g id="silkscreen-text" fill="#f1f3f5" font-family="'Courier New', Courier, monospace" font-weight="900">
+    <!-- Top Row -->
+    <text x="22" y="66" font-size="9" text-anchor="middle">L[MONO]</text>
+    <text x="59" y="66" font-size="9" text-anchor="middle">R</text>
+    <text x="96" y="52" font-size="11" transform="rotate(-90 96 52)" text-anchor="middle">SOS</text>
+    <text x="240" y="66" font-size="9" text-anchor="middle">L[MONO]</text>
+    <text x="277" y="66" font-size="9" text-anchor="middle">R</text>
+
+    <!-- Upper Main Pots -->
+    <text x="45" y="103" font-size="10.5" text-anchor="middle">GENE-SIZE</text>
+    <text x="278" y="103" font-size="10.5" text-anchor="middle">SLIDE</text>
+
+    <!-- Center Varispeed -->
+    <text x="150" y="230" font-size="11" text-anchor="middle" letter-spacing="1">VARISPEED</text>
+
+    <!-- Mid Main Pots -->
+    <text x="24" y="202" font-size="11" text-anchor="middle">MORPH</text>
+    <text x="276" y="202" font-size="10" text-anchor="middle">ORGANIZE</text>
+
+    <!-- Bottom Left Utility -->
+    <text x="23" y="247" font-size="9.5" text-anchor="middle">CLK</text>
+    <text x="63" y="280" font-size="8.5" text-anchor="middle">CV</text>
+    <text x="63" y="288" font-size="8.5" text-anchor="middle">OUT</text>
+
+    <!-- Vertical Play Text -->
+    <text x="10" y="332" font-size="9" fill="#fef08a" text-anchor="middle">P</text>
+    <text x="10" y="342" font-size="9" fill="#fef08a" text-anchor="middle">L</text>
+    <text x="10" y="352" font-size="9" fill="#fef08a" text-anchor="middle">A</text>
+    <text x="10" y="362" font-size="9" fill="#fef08a" text-anchor="middle">Y</text>
+
+    <!-- Bottom Center & Right Functions -->
+    <text x="92" y="299" font-size="9.5" transform="rotate(-90 92 299)" text-anchor="middle">REEL</text>
+    <text x="144" y="282" font-size="9" transform="rotate(-45 144 282)" text-anchor="middle">EOSG</text>
+    <text x="198" y="282" font-size="10" text-anchor="middle">SPLICE</text>
+    <text x="245" y="293" font-size="9.5" text-anchor="middle">SHIFT</text>
+  </g>
+
+  <!-- ================= 4. WHITE JACK/BUTTON ENCLOSURE BOXES ================= -->
+  <g id="silkscreen-boxes">
+    <!-- SOS CV Box -->
+    <rect x="104" y="32" width="34" height="26" rx="3" fill="#e2e4e8" stroke="#ffffff" stroke-width="1.4" />
+    
+    <!-- Gene Size CV Box -->
+    <rect x="8" y="115" width="38" height="34" rx="3" fill="#e2e4e8" stroke="#ffffff" stroke-width="1.4" />
+    
+    <!-- Slide CV Box -->
+    <rect x="254" y="115" width="38" height="34" rx="3" fill="#e2e4e8" stroke="#ffffff" stroke-width="1.4" />
+
+    <!-- Morph CV Box -->
+    <rect x="8" y="208" width="38" height="34" rx="3" fill="#e2e4e8" stroke="#ffffff" stroke-width="1.4" />
+
+    <!-- Organize CV Box -->
+    <rect x="254" y="208" width="38" height="34" rx="3" fill="#e2e4e8" stroke="#ffffff" stroke-width="1.4" />
+
+    <!-- Varispeed CV Box -->
+    <rect x="128" y="235" width="44" height="34" rx="3" fill="#e2e4e8" stroke="#ffffff" stroke-width="1.4" />
+
+    <!-- REC Control Complex Box -->
+    <rect x="81" y="312" width="44" height="52" rx="2" fill="#e2e4e8" stroke="#ffffff" stroke-width="1.5" />
+    <rect x="81" y="312" width="44" height="15" fill="#1e2023" />
+    <text x="103" y="323" fill="#fef08a" font-family="'Courier New', Courier, monospace" font-size="9.5" font-weight="900" text-anchor="middle">REC</text>
+
+    <!-- SPLICE Button Box -->
+    <rect x="133" y="312" width="44" height="52" rx="2" fill="none" stroke="#ffffff" stroke-width="1.5" />
+    <text x="155" y="325" fill="#f1f3f5" font-family="'Courier New', Courier, monospace" font-size="9.5" font-weight="900" text-anchor="middle">SPLICE</text>
+  </g>
+
+  <!-- ================= 5. HARDWARE KNOBS ================= -->
+  <g id="knobs">
+    <!-- Small Trimmer: SOS -->
+    <g id="knob-sos" transform="translate(176, 45)">
+      <circle cx="0" cy="0" r="14" fill="url(#knobBody)" stroke="#111" stroke-width="1" />
+      <circle cx="0" cy="0" r="10" fill="url(#knobCap)" />
+      <line x1="0" y1="0" x2="6" y2="-7" stroke="#18191c" stroke-width="2.5" stroke-linecap="round" />
+    </g>
+
+    <!-- Attenuverters -->
+    <!-- Gene Size CV Pot -->
+    <g id="knob-gene-att" transform="translate(70, 102)">
+      <circle cx="0" cy="0" r="13" fill="url(#knobBody)" />
+      <circle cx="0" cy="0" r="9" fill="url(#knobCap)" />
+      <line x1="0" y1="0" x2="0" y2="-8" stroke="#18191c" stroke-width="2.2" stroke-linecap="round" />
+    </g>
+    <!-- Slide CV Pot -->
+    <g id="knob-slide-att" transform="translate(230, 102)">
+      <circle cx="0" cy="0" r="13" fill="url(#knobBody)" />
+      <circle cx="0" cy="0" r="9" fill="url(#knobCap)" />
+      <line x1="0" y1="0" x2="0" y2="-8" stroke="#18191c" stroke-width="2.2" stroke-linecap="round" />
+    </g>
+    <!-- Varispeed CV Pot -->
+    <g id="knob-varispeed-att" transform="translate(150, 202)">
+      <circle cx="0" cy="0" r="13" fill="url(#knobBody)" />
+      <circle cx="0" cy="0" r="9" fill="url(#knobCap)" />
+      <line x1="0" y1="0" x2="0" y2="-8" stroke="#18191c" stroke-width="2.2" stroke-linecap="round" />
+    </g>
+
+    <!-- Center Main Big Knob: VARISPEED -->
+    <g id="knob-varispeed-main" transform="translate(150, 134)">
+      <circle cx="0" cy="0" r="21" fill="url(#knobBody)" stroke="#0b0b0d" stroke-width="2" />
+      <circle cx="0" cy="0" r="15" fill="url(#knobCap)" />
+      <!-- Indicator pointing forward/right (approx 2 o'clock) -->
+      <line x1="0" y1="0" x2="11" y2="-7" stroke="#18191c" stroke-width="3" stroke-linecap="round" />
+    </g>
+
+    <!-- Medium Primary Pots -->
+    <!-- Gene Size Main -->
+    <g id="knob-gene-size" transform="translate(75, 172)">
+      <circle cx="0" cy="0" r="18" fill="url(#knobBody)" />
+      <circle cx="0" cy="0" r="13" fill="url(#knobCap)" />
+      <line x1="0" y1="0" x2="-8" y2="8" stroke="#18191c" stroke-width="3" stroke-linecap="round" />
+    </g>
+    <!-- Slide Main -->
+    <g id="knob-slide" transform="translate(225, 172)">
+      <circle cx="0" cy="0" r="18" fill="url(#knobBody)" />
+      <circle cx="0" cy="0" r="13" fill="url(#knobCap)" />
+      <line x1="0" y1="0" x2="-8" y2="8" stroke="#18191c" stroke-width="3" stroke-linecap="round" />
+    </g>
+    <!-- Morph Main -->
+    <g id="knob-morph" transform="translate(75, 246)">
+      <circle cx="0" cy="0" r="18" fill="url(#knobBody)" />
+      <circle cx="0" cy="0" r="13" fill="url(#knobCap)" />
+      <line x1="0" y1="0" x2="-9" y2="7" stroke="#18191c" stroke-width="3" stroke-linecap="round" />
+    </g>
+    <!-- Organize Main -->
+    <g id="knob-organize" transform="translate(225, 246)">
+      <circle cx="0" cy="0" r="18" fill="url(#knobBody)" />
+      <circle cx="0" cy="0" r="13" fill="url(#knobCap)" />
+      <line x1="0" y1="0" x2="-9" y2="7" stroke="#18191c" stroke-width="3" stroke-linecap="round" />
+    </g>
+  </g>
+
+  <!-- ================= 6. JACK HARDWARE ================= -->
+  <!-- Reusable 3.5mm Eurorack Jack Template Applied at Specific Centers -->
+  <g id="jacks">
+    <!-- Row 1: Audio Inputs & Outputs -->
+    <!-- Input L -->
+    <g transform="translate(22.5, 43)"><circle cx="0" cy="0" r="11" fill="url(#jackNut)"/><circle cx="0" cy="0" r="8.5" fill="url(#jackMetal)"/><circle cx="0" cy="0" r="5" fill="#141517"/></g>
+    <!-- Input R -->
+    <g transform="translate(59, 43)"><circle cx="0" cy="0" r="11" fill="url(#jackNut)"/><circle cx="0" cy="0" r="8.5" fill="url(#jackMetal)"/><circle cx="0" cy="0" r="5" fill="#141517"/></g>
+    <!-- SOS CV In -->
+    <g transform="translate(121, 45)"><circle cx="0" cy="0" r="10" fill="url(#jackNut)"/><circle cx="0" cy="0" r="8" fill="url(#jackMetal)"/><circle cx="0" cy="0" r="4.8" fill="#141517"/></g>
+    <!-- Output L -->
+    <g transform="translate(240, 43)"><circle cx="0" cy="0" r="11" fill="url(#jackNut)"/><circle cx="0" cy="0" r="8.5" fill="url(#jackMetal)"/><circle cx="0" cy="0" r="5" fill="#141517"/></g>
+    <!-- Output R -->
+    <g transform="translate(277.5, 43)"><circle cx="0" cy="0" r="11" fill="url(#jackNut)"/><circle cx="0" cy="0" r="8.5" fill="url(#jackMetal)"/><circle cx="0" cy="0" r="5" fill="#141517"/></g>
+
+    <!-- Row 2: CV Parameter Inputs -->
+    <!-- Gene Size CV -->
+    <g transform="translate(27, 132)"><circle cx="0" cy="0" r="10" fill="url(#jackNut)"/><circle cx="0" cy="0" r="8" fill="url(#jackMetal)"/><circle cx="0" cy="0" r="4.8" fill="#141517"/></g>
+    <!-- Slide CV -->
+    <g transform="translate(273, 132)"><circle cx="0" cy="0" r="10" fill="url(#jackNut)"/><circle cx="0" cy="0" r="8" fill="url(#jackMetal)"/><circle cx="0" cy="0" r="4.8" fill="#141517"/></g>
+
+    <!-- Row 3: Mid CV Inputs -->
+    <!-- Morph CV -->
+    <g transform="translate(27, 225)"><circle cx="0" cy="0" r="10" fill="url(#jackNut)"/><circle cx="0" cy="0" r="8" fill="url(#jackMetal)"/><circle cx="0" cy="0" r="4.8" fill="#141517"/></g>
+    <!-- Varispeed CV -->
+    <g transform="translate(150, 252)"><circle cx="0" cy="0" r="10" fill="url(#jackNut)"/><circle cx="0" cy="0" r="8" fill="url(#jackMetal)"/><circle cx="0" cy="0" r="4.8" fill="#141517"/></g>
+    <!-- Organize CV -->
+    <g transform="translate(273, 225)"><circle cx="0" cy="0" r="10" fill="url(#jackNut)"/><circle cx="0" cy="0" r="8" fill="url(#jackMetal)"/><circle cx="0" cy="0" r="4.8" fill="#141517"/></g>
+
+    <!-- Row 4: Trigger and Modulation Jacks -->
+    <!-- CLK Jack -->
+    <g transform="translate(23, 272)"><circle cx="0" cy="0" r="10.5" fill="url(#jackNut)"/><circle cx="0" cy="0" r="8" fill="url(#jackMetal)"/><circle cx="0" cy="0" r="4.8" fill="#141517"/></g>
+    <!-- Gene / Shift Trigger Jack -->
+    <g transform="translate(277, 272)"><circle cx="0" cy="0" r="10.5" fill="url(#jackNut)"/><circle cx="0" cy="0" r="8" fill="url(#jackMetal)"/><circle cx="0" cy="0" r="4.8" fill="#141517"/></g>
+
+    <!-- Row 5: Lower Routing Jacks -->
+    <!-- CV OUT Jack -->
+    <g transform="translate(64, 298)"><circle cx="0" cy="0" r="10" fill="url(#jackNut)"/><circle cx="0" cy="0" r="8" fill="url(#jackMetal)"/><circle cx="0" cy="0" r="4.8" fill="#141517"/></g>
+    <!-- EOSG Jack -->
+    <g transform="translate(150, 298)"><circle cx="0" cy="0" r="10" fill="url(#jackNut)"/><circle cx="0" cy="0" r="8" fill="url(#jackMetal)"/><circle cx="0" cy="0" r="4.8" fill="#141517"/></g>
+
+    <!-- Bottom Row Jacks -->
+    <!-- Play Jack -->
+    <g transform="translate(25, 348)"><circle cx="0" cy="0" r="10.5" fill="url(#jackNut)"/><circle cx="0" cy="0" r="8" fill="url(#jackMetal)"/><circle cx="0" cy="0" r="4.8" fill="#141517"/></g>
+    <!-- Record Gate Jack -->
+    <g transform="translate(64, 348)"><circle cx="0" cy="0" r="10.5" fill="url(#jackNut)"/><circle cx="0" cy="0" r="8" fill="url(#jackMetal)"/><circle cx="0" cy="0" r="4.8" fill="#141517"/></g>
+    <!-- Splice Trigger In Jack -->
+    <g transform="translate(195, 348)"><circle cx="0" cy="0" r="10.5" fill="url(#jackNut)"/><circle cx="0" cy="0" r="8" fill="url(#jackMetal)"/><circle cx="0" cy="0" r="4.8" fill="#141517"/></g>
+  </g>
+
+  <!-- ================= 7. SPECIALIZED WINDOWS & INDICATORS ================= -->
+  <g id="displays-and-indicators">
+    <!-- Audio Level Segmented Meter -->
+    <g id="level-meter" transform="translate(8, 293)">
+      <rect x="0" y="0" width="37" height="23" fill="#111214" stroke="#ffffff" stroke-width="1.3" rx="1.5" />
+      <rect x="3" y="3" width="31" height="2.5" fill="#ef4444" />
+      <rect x="3" y="7" width="31" height="2.5" fill="#f97316" />
+      <rect x="3" y="11" width="31" height="2.5" fill="#f59e0b" />
+      <rect x="3" y="15" width="31" height="2.5" fill="#eab308" />
+      <rect x="3" y="19" width="31" height="2.2" fill="#84cc16" />
+    </g>
+
+    <!-- REEL Blue Lens Indicator -->
+    <g id="indicator-reel" transform="translate(105, 298)">
+      <circle cx="0" cy="0" r="13" fill="url(#reelBlue)" stroke="#ffffff" stroke-width="1.6" />
+      <circle cx="0" cy="0" r="10" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="1.2" />
+    </g>
+
+    <!-- SPLICE Green Window Indicator -->
+    <g id="indicator-splice" transform="translate(180, 287)">
+      <rect x="0" y="0" width="34" height="20" rx="2" fill="url(#spliceGreen)" stroke="#ffffff" stroke-width="1.6" />
+      <rect x="2.5" y="2.5" width="29" height="15" rx="1" fill="none" stroke="rgba(255,255,255,0.25)" stroke-width="1" />
+    </g>
+
+    <!-- SHIFT Button/LED -->
+    <g id="indicator-shift" transform="translate(235, 310)">
+      <circle cx="0" cy="0" r="8" fill="#e5e7eb" stroke="#ffffff" stroke-width="1.8" />
+      <circle cx="0" cy="0" r="6" fill="#f9fafb" />
+    </g>
+
+    <!-- REC Button Status LED -->
+    <g id="led-rec" transform="translate(103, 350)">
+      <circle cx="0" cy="0" r="6.5" fill="#1e2023" stroke="#94a3b8" stroke-width="1" />
+      <circle cx="0" cy="0" r="4.5" fill="url(#ledYellowGreen)" />
+    </g>
+
+    <!-- SPLICE Button Status LED -->
+    <g id="led-splice" transform="translate(155, 350)">
+      <circle cx="0" cy="0" r="6.5" fill="#1e2023" stroke="#94a3b8" stroke-width="1" />
+      <circle cx="0" cy="0" r="4.5" fill="url(#ledYellowGreen)" />
+    </g>
+
+    <!-- Micro SD Card Socket Interface -->
+    <g id="microsd-slot" transform="translate(244, 342)">
+      <rect x="0" y="0" width="46" height="15" rx="1.5" fill="#2d3035" stroke="#ffffff" stroke-width="1.2" />
+      <!-- Receptive slot slit -->
+      <rect x="3" y="4" width="40" height="7" rx="1" fill="#0b0b0d" />
+      <!-- Gold contact prongs -->
+      <line x1="10" y1="5" x2="10" y2="10" stroke="#eab308" stroke-width="1" />
+      <line x1="16" y1="5" x2="16" y2="10" stroke="#eab308" stroke-width="1" />
+      <line x1="22" y1="5" x2="22" y2="10" stroke="#eab308" stroke-width="1" />
+      <line x1="28" y1="5" x2="28" y2="10" stroke="#eab308" stroke-width="1" />
+      <line x1="34" y1="5" x2="34" y2="10" stroke="#eab308" stroke-width="1" />
+    </g>
+  </g>
+</svg>
